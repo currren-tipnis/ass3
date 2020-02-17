@@ -1,4 +1,7 @@
 language: python
 python:
   - "3.7"
+install:
+  - pip install -U pytest
+  - pip install -U pytest_cov
 script: pytest --cov=ass3_test.py
