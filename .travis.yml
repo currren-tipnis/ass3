@@ -4,4 +4,7 @@ python:
 install:
   - pip install -U pytest
   - pip install -U pytest_cov
-script: pytest --cov=ass3_test
+  - pip install -U pylint
+script: 
+  - pytest --cov=ass3_test
+  - pylint ass3_src.py
