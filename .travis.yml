@@ -4,4 +4,4 @@ python:
 install:
   - pip install -U pytest
   - pip install -U pytest_cov
-script: pytest --cov=ass3_test.py
+script: pytest --cov=ass3_test
